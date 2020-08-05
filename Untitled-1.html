@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Untitled-3.css">
+    <link rel="stylesheet" type="text/css" href="b.css">
+    <title>For you!</title>
+    <script>  
+        function NO(){  
+                var x = Math.round(Math.random() * window.innerWidth);
+                var y = Math.round(Math.random() * window.innerHeight);
+                document.getElementById('NNo').style.left = x + 'px';
+                document.getElementById('NNo').style.top = y + 'px';
+            }  
+    </script>
+</head>
+<body>
+    <div>
+    <h1 class="IL" style="position:absolute; left:350px; top:175px; font-size: 75px;">DO YOU LOVE ME?</h1>
+    <button class="button button1" onclick="location.href='file:///C:/Users/Phuc%20Hoang/Desktop/tym.html';" style="position:absolute; left:400px; top:300px;">YES</button>
+    <button class="button button2" id="NNo" onmouseover="NO()" style="position:absolute; left:900px; top:300px;">NO</button>
+    </div>
+</body>
+</html>
